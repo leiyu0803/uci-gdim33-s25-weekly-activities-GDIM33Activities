@@ -1,10 +1,11 @@
 # GDIM 33 In-Class Activities
 ## W1
 ### Activity 1
-Put your inspo board link here. Do NOT leave a bare URL. REMOVE ALL INSTRUCTIONAL TEXT.
+[Pre-Production Activity Board](https://miro.com/app/board/uXjVGoFarLc=/?share_link_id=5214578093)
 
-1. Put your activity 1 answers here.
-2. Please keep the proper list format.
+1. The future style UI and Lab environment. Guns. 
+2. Pengcheng Qi: We both play Arknights and Death Stranding.
+3. Elijah: We both like Death Stranding.
 
 
 ### Activity 2
