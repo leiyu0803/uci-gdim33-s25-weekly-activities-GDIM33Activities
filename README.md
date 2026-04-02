@@ -9,7 +9,8 @@
 
 
 ### Activity 2
-Put your activity 2 image here. REMOVE THIS INSTRUCTIONAL TEXT.
+
+![Untitled drawing](https://github.com/user-attachments/assets/ed87f1f7-1984-4f6b-94a7-742fcec0e616)
 
 
 ## W2
