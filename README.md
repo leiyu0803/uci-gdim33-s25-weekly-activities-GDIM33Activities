@@ -16,3 +16,10 @@
 ## W3
 ### Activity 1
 <img width="960" height="720" alt="Untitled drawing (1)" src="https://github.com/user-attachments/assets/6198ff81-9640-4f39-8596-2604f39b8b1c" />
+
+### Activity 2
+
+1. You can simply reuse it on other NPC by change variable, with out need to change your graph. You can also prevent mistype.
+2. When I try to change form Dialogue state into Explore state, I found that the button is clicked by add a Debug.log, but the translons did not happen, since the Debug.log on the translon did not trigger, and nothing happing. So, find that I use Custom event, but not Unity Event.
+3. Yes. In the main screen, player need to use cursor to click on buttons. But in the game, player need to use mouse to aim, so cursor need to be locked.
+4. Yes. In the game, there was a pause screen, and I can use state machine to build it. When player press ESC, trigger the Run to Pause, and when player press resume button, Trigger Pause to Run.
