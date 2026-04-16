@@ -13,7 +13,6 @@
 ![Untitled drawing](https://github.com/user-attachments/assets/ed87f1f7-1984-4f6b-94a7-742fcec0e616)
 
 
-## W2
-Write your W2 Devlog here.
-
-Continue adding additional headers below this one for future weeks and future activities.
+## W3
+### Activity 1
+<img width="960" height="720" alt="Untitled drawing (1)" src="https://github.com/user-attachments/assets/6198ff81-9640-4f39-8596-2604f39b8b1c" />
