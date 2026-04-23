@@ -47,3 +47,7 @@ Pengcheng Qi: Add shake to the UI.
 1. Yes. You can just add more DialogueNodeW4 ScriptableObject to add a new option on dialogue.
 2. Yes. For every single dialogue, you can only set up to 4 options(More than 4 options will work but the UI will look not good).
 3. When you create a new function to call, you will need to make the UNITY know. But unity will not call this automatically. So you need to use this button to let unity scan your assets and find the function.
+
+#### BONUS POINT
+<img width="1237" height="905" alt="image" src="https://github.com/user-attachments/assets/2bb17e6d-765a-4beb-9327-f1612decd2c5" />
+
