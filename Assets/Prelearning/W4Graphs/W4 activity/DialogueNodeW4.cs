@@ -14,5 +14,8 @@ namespace W4Activity
 
         [Tooltip("[Optional] The dialogue options for the player's response, and what node each response leads to.")]
         public List<PlayerReplyW4> ReplyOptions;
+
+        [Tooltip("[Optional] The sprite associated with this dialogue node.")]
+        public Sprite sprite;
     }
 }

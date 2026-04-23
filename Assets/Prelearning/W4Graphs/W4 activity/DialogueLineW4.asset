@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87814806be98455aa06d85e22ad29d6, type: 3}
+  m_Name: DialogueLineW4
+  m_EditorClassIdentifier: 
+  Line: DPS Test
+  ReplyOptions:
+  - line: 325
+    nextNode: {fileID: 11400000, guid: 2d48f161b9961e34c9caee4b83021b07, type: 2}
+  - line: 328
+    nextNode: {fileID: 11400000, guid: c901cbb146210554b9e1aec6fed6aa23, type: 2}
+  - line: 799
+    nextNode: {fileID: 11400000, guid: a8bee1cc375c4724a804e99787e4f1d1, type: 2}
+  - line: 7999
+    nextNode: {fileID: 11400000, guid: 786031a54f330c94c9d63b5568c9d40c, type: 2}
+  sprite: {fileID: 21300000, guid: 723d7ed6c2c790d4cb91e51789ffc88f, type: 3}

@@ -23,3 +23,27 @@
 2. When I try to change form Dialogue state into Explore state, I found that the button is clicked by add a Debug.log, but the translons did not happen, since the Debug.log on the translon did not trigger, and nothing happing. So, find that I use Custom event, but not Unity Event.
 3. Yes. In the main screen, player need to use cursor to click on buttons. But in the game, player need to use mouse to aim, so cursor need to be locked.
 4. Yes. In the game, there was a pause screen, and I can use state machine to build it. When player press ESC, trigger the Run to Pause, and when player press resume button, Trigger Pause to Run.
+
+## W4
+
+### Activity 1
+
+#### playtesting goal
+
+In the current game, player can walk around and shoot. The goal is to test if there are bugs and find point to improve.
+
+#### playtest team
+
+Haoyi Zhang, Pengcheng Qi, Allen Gu, Yaokun Wan, Zhengfan Yang
+
+####  playtesting notes
+
+Zhengfan Yang: Change the point of view to make player closer.
+
+Pengcheng Qi: Add shake to the UI.
+
+### Activity 2
+
+1. Yes. You can just add more DialogueNodeW4 ScriptableObject to add a new option on dialogue.
+2. Yes. For every single dialogue, you can only set up to 4 options(More than 4 options will work but the UI will look not good).
+3. When you create a new function to call, you will need to make the UNITY know. But unity will not call this automatically. So you need to use this button to let unity scan your assets and find the function.
