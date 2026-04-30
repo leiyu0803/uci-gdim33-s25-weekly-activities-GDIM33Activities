@@ -51,3 +51,34 @@ Pengcheng Qi: Add shake to the UI.
 #### BONUS POINT
 <img width="1237" height="905" alt="image" src="https://github.com/user-attachments/assets/2bb17e6d-765a-4beb-9327-f1612decd2c5" />
 
+
+
+## W5
+
+### Activity 1
+
+Step1: Enemy can walk to player
+
+​	Substep1: Add Navmesh
+
+​	Substep2: Make enemy walk to player
+
+​	Substep3: Combine with Animgraph
+
+Step2: Enemy will walk to player when it sees player
+
+​	Substep1: Add Raycast
+
+​	Substep2: Cottrol enemy walk
+
+Step3: Enemy will attack player when it get close to player
+
+​	Substep1: Get distance
+
+​	Substep2: Attack and make damage
+
+​	Substep3: Combine with Animgraph
+
+### Activity 2
+
+I complete Step 1.
