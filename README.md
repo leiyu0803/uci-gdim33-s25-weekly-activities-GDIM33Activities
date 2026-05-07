@@ -104,3 +104,11 @@ Add a restart button when player died.
 Change the layer of the interact UI.
 
 Fix a issue that cause the damage list can't show correct damage.
+
+### Activity 2
+
+1. Because all the value are less than 1, multiply them will make them closer to 0, which is black.
+2. More. Since alpha value is less than 1, multiply it will will make it closer to 0, which is completely transparent.
+3. This data comes from the mesh.
+4. Yes.
+
