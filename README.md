@@ -82,3 +82,25 @@ Step3: Enemy will attack player when it get close to player
 ### Activity 2
 
 I complete Step 1.
+
+## W6
+
+### Activity 1
+
+[Link to the itch page](https://stormmoon.itch.io/fractured-vertical-slice-playtest-2)
+
+#### Change since Milestone 1
+
+I added enemy AI. The enemy will chase the player when it sees the player. I also added the death of the player. I also add some QOL update, like give player a reminder when the actual bullet hit point is different with the aim point.
+
+#### Test goal
+
+I want to test if there are any bug when the enemy chase and attack the player, and the player death.
+
+#### playtesting notes
+
+Add a restart button when player died.
+
+Change the layer of the interact UI.
+
+Fix a issue that cause the damage list can't show correct damage.
