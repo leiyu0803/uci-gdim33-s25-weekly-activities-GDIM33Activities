@@ -112,3 +112,12 @@ Fix a issue that cause the damage list can't show correct damage.
 3. This data comes from the mesh.
 4. Yes.
 
+## W7
+
+1. The data comes form the mesh. The mesh contains color information.
+2. They’re interpolated across the adjacent.
+3. The resolution of vertex colors depends on the number of vertices, the resolution of textures is much higher than the vertex density of the mesh. This can be used to render objects in the distance that are not important, such as a mountain in the background. This can improve performance.
+4. I think the direction of the normal is reversed.
+5. We can use it to check the direction of tangent.
+6. Since the normal vector is oriented in the opposite direction, the result must be multiplied by -1.
+7. If you don't change it to “Additive,” the black in the Noise will become visible.
