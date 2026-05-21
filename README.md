@@ -121,3 +121,22 @@ Fix a issue that cause the damage list can't show correct damage.
 5. We can use it to check the direction of tangent.
 6. Since the normal vector is oriented in the opposite direction, the result must be multiplied by -1.
 7. If you don't change it to “Additive,” the black in the Noise will become visible.
+
+## W8
+
+### Activity 1
+
+I added a scan function into the game.
+
+[Link to the itch page](https://stormmoon.itch.io/fractured-vertical-slice-playtest-3)
+
+I want to test if there are any bug in the scan function.
+
+Note: Change the key of the scan.
+
+### Activity 2
+
+1. The time will be turned into a looping 0 to 1 value, makes UV changes.
+2. It does not affect the color of the base sprite.
+3. The sprite renderer automatically replaces the sprite in the texture with the object's own sprite.
+4. It may make the final value to be greater than 1, may break the scrolling effect.
