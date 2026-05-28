@@ -140,3 +140,15 @@ Note: Change the key of the scan.
 2. It does not affect the color of the base sprite.
 3. The sprite renderer automatically replaces the sprite in the texture with the object's own sprite.
 4. It may make the final value to be greater than 1, may break the scrolling effect.
+
+## W9
+
+### Activity 1
+
+War Thunder
+
+To make War Thunder'internal structure s X-ray and mouse-over outline effects in Unity, we can split the vehicle model into an opaque internal structure  and a semi-transparent surface skin, rendered later with Transparent queue so that the former naturally shows through the translucent hull. For the highlight outline, we can detect the part with raycast and draw its inflated mesh in a final pass after all transparent objects, using a queue like Overlay or injecting through a CommandBuffer at the AfterRenderingTransparents event to keep the contour sharp on top.
+
+### Activity 2
+
+I added a outline to the enemy. This effect will appear when the enemy being scanned.
