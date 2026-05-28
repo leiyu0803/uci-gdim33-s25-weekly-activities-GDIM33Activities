@@ -151,4 +151,6 @@ To make War Thunder'internal structure s X-ray and mouse-over outline effects in
 
 ### Activity 2
 
+<img width="1104" height="596" alt="image" src="https://github.com/user-attachments/assets/91a09ccf-8915-49a8-98a4-a6b90f9e523f" />
+
 I added a outline to the enemy. This effect will appear when the enemy being scanned.
