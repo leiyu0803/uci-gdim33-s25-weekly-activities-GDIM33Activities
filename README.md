@@ -154,3 +154,41 @@ To make War Thunder'internal structure s X-ray and mouse-over outline effects in
 <img width="1104" height="596" alt="image" src="https://github.com/user-attachments/assets/91a09ccf-8915-49a8-98a4-a6b90f9e523f" />
 
 I added a outline to the enemy. This effect will appear when the enemy being scanned.
+
+## W10
+
+### Activity 1
+
+#### What's new
+
+I added the scan effect. Player can press 5 to use a battery to scan the enemy. When the enemy is being scanned, It will show a outline and have a frame (Like a wall hack). The health of the enemy will also shown.
+
+[Link to the itch page](https://stormmoon.itch.io/fracerttured-vical-slice-milestone3)
+
+#### Goal
+
+Test the scan effect and find bugs.
+
+#### Feedback
+
+Add a reminder when player use a item.
+
+### Activity 2
+
+Before a game is coded, the final experience must be imagined. Using the MDA framework, work backward from aesthetics to the required dynamics, then to specific mechanics. At this stage, technology is not a concern, but the intended feel of the game and what the player does repeatedly.
+
+The experience is then decomposed into distinct gameplay loops. Each loop is an independently repeatable action cycle with clear inputs and outputs. Inputs are player actions or system triggers; outputs are game state changes and feedback. After all loops are mapped out, the requirements are frozen—no new loops are added—to lock the scope.
+
+For each gameplay loop, an MVC structure is used for technical breakdown. A loop is split into model, view, and controller. The model manages data and logical state. The view handles visual and audio presentation. The controller reads input and invokes the model. For each part, technical needs and asset needs are listed. Technical needs are functional points the code must deliver, described in a sentence or two. Asset needs are the types of resources expected—sprites, frame animations, VFX sprite sheets, sound effects, configuration files—only types, not a full inventory. At the low-level design stage, these three parts are kept strictly decoupled: changing the view does not affect the model, and altering input does not impact logic.
+
+Once all loops are broken down, they are compared side by side. Shared technical needs and asset needs are extracted and merged. Identical movement logic used by multiple loops becomes a shared movement module. Common HUD elements, generic click sounds, and similar assets go into a unified list. After this deduplication, the total development effort becomes much clearer.
+
+Technical needs are further decomposed into concrete classes and methods. Each class receives a defined responsibility. Each method lists its inputs, outputs, and internal technical approach. The approach may be as specific as raycasting or tilemap.maptoworldpos. Full pseudocode is unnecessary, but the description must be sufficiently explicit. Asset needs are now broken into a concrete list of asset files, with naming conventions, dimensions, frame counts, and other specifications. At this level of detail, no hidden unknowns remain.
+
+### Activity 3
+
+Fixed a bug when some times the rig of the player does not work.
+
+Fixed a bug some times enemy will still attack player when player is dead.
+
+Change some item into a prefab.
